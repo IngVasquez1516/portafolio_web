@@ -29,18 +29,19 @@
     object-fit: contain;
   }
   
-  /* Navbar */
-  .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 5%;
-    z-index: 10;
-  }
+  /* Navbar transparente flotante */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  z-index: 9999;
+  background-color: transparent; /* Sin fondo de relleno */
+}
   
   .logo span {
     font-size: 1.5rem;
