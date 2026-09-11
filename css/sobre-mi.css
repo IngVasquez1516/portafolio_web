@@ -1,0 +1,55 @@
+/* Estilos para la sección Sobre Mí */
+.sobre-mi-section {
+    padding: 5rem 10%;
+    background-color: #ffffff;
+  }
+  
+  .sobre-mi-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .sobre-mi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .sobre-mi-card {
+    background: #f8fafc;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #000000;
+  }
+  
+  .sobre-mi-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #000000;
+  }
+  
+  .sobre-mi-card p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .sobre-mi-grid {
+      grid-template-columns: 1fr;
+    }
+  }

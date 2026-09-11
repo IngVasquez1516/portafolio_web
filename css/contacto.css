@@ -1,0 +1,140 @@
+/* Estilos para la sección de Contacto */
+.contacto-section {
+    padding: 5rem 10%;
+    background-color: #ffffff;
+  }
+  
+  .contacto-container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2.5rem;
+  }
+  
+  /* Estilos del Formulario */
+  .contacto-form-wrapper {
+    background: #f8fafc;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border-top: 4px solid #000000;
+  }
+  
+  .contacto-form-wrapper h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #333333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .form-control:focus {
+    border-color: #000000;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #222222;
+  }
+  
+  .form-status {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Estilos de la Columna de Redes / WhatsApp */
+  .contacto-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .info-card {
+    background: #f8fafc;
+    padding: 1.8rem;
+    border-radius: 8px;
+  }
+  
+  .info-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+  }
+  
+  .info-card p {
+    color: #4b5563;
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: opacity 0.2s;
+  }
+  
+  .btn-social:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-social.whatsapp { background-color: #25d366; }
+  .btn-social.facebook { background-color: #1877f2; }
+  .btn-social.instagram { background-color: #e4405f; }
+  
+  @media (max-width: 768px) {
+    .contacto-grid {
+      grid-template-columns: 1fr;
+    }
+  }

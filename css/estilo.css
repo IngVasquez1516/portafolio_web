@@ -1,0 +1,10 @@
+/* Archivo principal que une todos los módulos de CSS */
+@import url('portada.css');
+@import url('sobre-mi.css');
+@import url('servicios.css'); /* Carga del módulo de servicios */
+@import url('contacto.css'); /* Módulo de contacto */
+
+/* Desplazamiento suave para que al hacer clic en el menú baje fluido */
+html {
+  scroll-behavior: smooth;
+}
