@@ -35,18 +35,37 @@
     margin-bottom: 1rem;
   }
   
-  .skills-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #e2e8f0;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+  /* Estilos para alinear los elementos de la lista */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: flex-start; /* Alinea íconos y texto a la parte superior */
+  gap: 0.8rem; /* Espacio entre el ícono y el contenido */
+  text-align: left; /* Garantiza alineación a la izquierda */
+}
+
+/* Fija un tamaño constante para que los íconos no muevan el texto */
+.skills-list li i {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-top: 0.2rem; /* Ajuste milimétrico para alinear con la primera línea de texto */
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Mantiene el texto alineado correctamente cuando ocupa varios renglones */
+.skills-list li span,
+.skills-list li p {
+  margin: 0;
+  line-height: 1.5;
+}
   
   @media (max-width: 768px) {
     .sobre-mi-grid {
